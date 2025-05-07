@@ -3,7 +3,15 @@ description: Official site for Salado Youth Football and Cheer
 baseurl: ""
 url: "https://salado-youth-football.netlify.app"
 markdown: kramdown
-theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# Use custom layouts and includes
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: builder
