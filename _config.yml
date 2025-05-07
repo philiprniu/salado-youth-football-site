@@ -1,9 +1,8 @@
-title: Salado Youth Football
-email: info@saladofootball.com
-description: >
-  Official site for Salado Youth Football & Cheer.
+title: Salado Youth Football & Cheer
+description: Youth sports program in Salado, Texas
 baseurl: ""
-url: "https://salado-youth-football.netlify.app"
+url: ""
 markdown: kramdown
+theme: null
 plugins:
   - jekyll-feed

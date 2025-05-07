@@ -1,10 +1,4 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3.2"
-gem "rouge", "~> 4.1"
-gem "liquid", "~> 4.0"
-gem "safe_yaml", "~> 1.0"
-gem "kramdown", "~> 2.3"
-gem "kramdown-parser-gfm", "~> 1.1"
 gem "jekyll-feed", "~> 0.17"
-gem "rexml", ">= 0"
