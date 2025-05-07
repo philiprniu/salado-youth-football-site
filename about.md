@@ -3,4 +3,4 @@ layout: default
 title: "About Us"
 ---
 
-Salado Youth Football and Cheer is built by the community, for the community.
+We are Salado Youth Football and Cheer, serving our local athletes and families.

@@ -1,9 +1,9 @@
 title: Salado Youth Football
 email: info@saladofootball.com
-description: >-
+description: >
   Official site for Salado Youth Football & Cheer.
 baseurl: ""
 url: "https://salado-youth-football.netlify.app"
-theme: minima
+markdown: kramdown
 plugins:
   - jekyll-feed
