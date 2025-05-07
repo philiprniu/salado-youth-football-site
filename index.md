@@ -3,7 +3,6 @@ layout: default
 title: "Welcome to Salado Youth Football"
 ---
 
-# Welcome!
+# Welcome to Salado Youth Football & Cheer!
 
-This is the homepage. You can edit this content from the CMS.
-
+This is your editable homepage. Use the CMS at `/admin` to change this content.
