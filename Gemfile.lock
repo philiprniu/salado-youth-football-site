@@ -2,12 +2,21 @@ GEM
   remote: https://rubygems.org/
   specs:
     jekyll (4.3.2)
+      pathutil (~> 0.16)
+      rouge (~> 4.0)
+      liquid (~> 4.0)
+    pathutil (0.16.2)
+    rouge (4.1.1)
+    liquid (4.0.4)
 
 PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
   jekyll (~> 4.3.2)
+  pathutil (~> 0.16.2)
+  rouge (~> 4.1)
+  liquid (~> 4.0)
 
 BUNDLED WITH
    2.4.22
