@@ -1,8 +1,0 @@
-title: Salado Youth Football & Cheer
-description: Youth sports program in Salado, Texas
-baseurl: ""
-url: ""
-markdown: kramdown
-theme: null
-plugins:
-  - jekyll-feed
