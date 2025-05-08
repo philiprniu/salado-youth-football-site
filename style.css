@@ -1,98 +1,103 @@
 
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: 'Helvetica Neue', sans-serif;
   background: #0d0d0d;
-  color: white;
+  color: #fff;
 }
-
 a {
   color: #ff4a4a;
   text-decoration: none;
-  font-weight: bold;
 }
-
-.site-header {
+header.site-header {
+  background: #000;
+  padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: black;
-  padding: 1rem 2rem;
   position: sticky;
   top: 0;
   z-index: 1000;
 }
-
-.site-header .logo {
-  font-weight: bold;
+header.site-header .logo {
   font-size: 1.5rem;
-  color: white;
+  font-weight: bold;
 }
-
-.site-header nav a {
+header.site-header nav a {
   margin-left: 1rem;
-  color: white;
+  color: #fff;
 }
-
 .hero {
   background: linear-gradient(to right, rgba(139,0,0,0.9), rgba(255,0,0,0.9)), url('assets/images/hero-placeholder.jpg');
   background-size: cover;
   background-position: center;
   padding: 6rem 2rem;
   text-align: center;
-  color: white;
 }
-
-.hero-overlay h1 {
+.hero h1 {
   font-size: 3rem;
   margin: 0;
 }
-
-.hero-overlay p {
+.hero p {
   font-size: 1.25rem;
   margin-top: 1rem;
-  color: rgba(255,255,255,0.9);
+  color: rgba(255,255,255,0.85);
 }
-
 .cta a {
   display: inline-block;
-  margin: 1rem;
   background: white;
   color: #8b0000;
   padding: 1rem 2rem;
+  margin: 1rem;
+  text-decoration: none;
+  font-weight: bold;
   border-radius: 6px;
 }
-
 .columns {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
   justify-content: center;
-  padding: 2rem 0;
+  gap: 2rem;
+  padding: 2rem 1rem;
 }
-
 .card {
   background: rgba(255,255,255,0.05);
-  border-radius: 12px;
   padding: 2rem;
-  flex: 1 1 280px;
-  text-align: left;
+  border-radius: 10px;
+  width: 300px;
+  transition: transform 0.3s ease;
 }
-
+.card:hover {
+  transform: scale(1.03);
+}
 footer {
   background: #000;
-  color: #aaa;
-  text-align: center;
   padding: 2rem;
+  text-align: center;
+  color: #999;
 }
-
 footer nav a {
-  margin: 0 0.5rem;
-  color: #aaa;
+  margin: 0 1rem;
+  color: #999;
 }
-
 .page-content {
   padding: 3rem 2rem;
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
+}
+@media (max-width: 768px) {
+  .columns {
+    flex-direction: column;
+    align-items: center;
+  }
+  header.site-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  header.site-header nav {
+    margin-top: 1rem;
+  }
 }

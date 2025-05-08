@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Salado Youth Football & Cheer</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
   <header class="site-header">
@@ -18,57 +19,51 @@
   </header>
 
   <section class="hero">
-    <div class="hero-overlay">
-      <h1>Built to Lead. Trained to Win.</h1>
-      <p>Empowering the next generation of athletes in Salado.</p>
-      <div class="cta">
-        <a href="#">Register Now</a>
-        <a href="#">Donate</a>
-      </div>
+    <h1>Built to Lead. Trained to Win.</h1>
+    <p>Empowering the next generation of athletes in Salado.</p>
+    <div class="cta">
+      <a href="#">Register</a>
+      <a href="#">Donate</a>
     </div>
   </section>
 
-  <section class="programs">
-    <h2>Our Programs</h2>
-    <div class="columns">
-      <div class="card">
-        <h3>Flag Football</h3>
-        <p>For ages 5–7. Learn the game, build confidence, and love the sport early.</p>
-      </div>
-      <div class="card">
-        <h3>Tackle Football</h3>
-        <p>Ages 8–12. Develop grit, teamwork, and championship discipline.</p>
-      </div>
-      <div class="card">
-        <h3>Cheer</h3>
-        <p>All ages. Spirit, strength, and powerful leadership through performance.</p>
-      </div>
+  <section class="columns" id="programs">
+    <div class="card">
+      <h3>Flag Football</h3>
+      <p>Ages 5–7. Learn the game, build confidence, and ignite a love for the sport.</p>
+    </div>
+    <div class="card">
+      <h3>Tackle Football</h3>
+      <p>Ages 8–12. Train with purpose. Lead with grit. Compete with pride.</p>
+    </div>
+    <div class="card">
+      <h3>Cheer</h3>
+      <p>All ages. Spirit, strength, and leadership through movement and unity.</p>
     </div>
   </section>
 
-  <section class="blog-preview">
-    <h2>Latest News</h2>
-    <div class="columns">
-      <div class="card">
-        <h3><a href="posts/season-kickoff.html">Season Kickoff: What to Expect</a></h3>
-        <p>The 2024 season is here! Get ready for the biggest year yet.</p>
-      </div>
-      <div class="card">
-        <h3><a href="posts/cheerleaders-top-honors.html">Cheerleaders Take Top Honors</a></h3>
-        <p>Salado’s cheer squad crushed it at regionals — see the highlights.</p>
-      </div>
+  <section class="columns" id="latest">
+    <div class="card">
+      <h3><a href="posts/season-kickoff.html">Season Kickoff: What to Expect</a></h3>
+      <p>Practice starts next week. Here’s what players and parents need to know.</p>
+    </div>
+    <div class="card">
+      <h3><a href="posts/cheerleaders-top-honors.html">Cheer Team Wins Regionals</a></h3>
+      <p>Salado cheerleaders brought home the trophy. Full recap inside.</p>
     </div>
   </section>
 
   <footer>
-    <div class="footer-content">
-      <p>&copy; 2025 Salado Youth Football & Cheer</p>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="blog.html">Blog</a>
-      </nav>
-    </div>
+    <p>&copy; 2025 Salado Youth Football & Cheer</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+    </nav>
   </footer>
+
+  <script>
+    ScrollReveal().reveal('.card', { delay: 200, distance: '20px', origin: 'bottom', duration: 800 });
+  </script>
 </body>
 </html>
